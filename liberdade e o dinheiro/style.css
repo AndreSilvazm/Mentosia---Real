@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Bakbak+One&family=Bebas+Neue&family=Fredoka+One&family=Lato:ital,wght@1,300&family=League+Gothic&family=Libre+Baskerville&family=Mochiy+Pop+P+One&family=Oswald:wght@200&family=Patrick+Hand&family=Rajdhani&family=Rowdies:wght@300&family=Saira+Condensed:wght@200&family=Secular+One&family=Staatliches&family=Ubuntu:ital,wght@1,300&display=swap');
+body{
+
+    background-color: #294666;
+    
+}
+
+.top-content h1{
+
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin: 0;
+    color: white;
+    padding: 1em 0;
+    
+
+}
+
+.top-content p{
+
+    text-align: center;
+    margin: 0;
+    margin-top: -30px;
+    color: rgb(177, 125, 125);
+}
+
+.brain{
+
+    margin-top: -50px;
+    
+    
+}
+
+.brain:hover{
+
+    transition: all ease-in .5s;
+    transform: rotate(360deg);
+}
+
+.top-content{
+
+    background-color: rgb(4, 26, 44);
+    font-family: 'bebas neue';
+    text-align: center;
+}
+
+.top-nav ul{
+
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: .1em 0;
+
+}
+
+.top-nav li{
+
+    list-style: none;
+    text-align: center;
+    margin: .4em 0;
+    font-size: 1.2em;
+    
+}
+
+.top-nav a{
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    display: block;
+    padding: 1.3em 0;
+}
+
+.top-nav a:hover{
+
+    transition: all ease-out .4s;
+    background-color: #294666;
+
+}
+
+h1, h2, h3{
+
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+}
+.Footer{
+
+    text-align: center;
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+    
+    
+}
+
+.main-content{
+
+    width: 94%;
+    margin: auto;
+    text-align: center;
+    line-height: 1.8em;
+    background: #f1ecec;
+    border-radius: 5px;
+    padding: 1em;
+    box-sizing: border-box;
+    margin-top: 3%;
+    font-size: 1.3em;
+    
+}
+
+.Footer p{
+
+    color: white;
+    font-family: 'Secular One', sans-serif;;
+}
+
+@media screen and (min-width: 900px){
+    
+
+    .top-nav{
+
+        
+        background: transparent;
+    }
+
+    .top-nav li{
+
+        display: inline-block;
+        
+        
+    }
+
+    .sobre{
+
+        margin: 0 40px 0;
+    }
+
+    .top-nav ul{
+
+        text-align: center;
+        margin: auto;
+        position: relative;
+        
+    }
+
+    .top-nav a:hover{
+
+        background: transparent;
+        text-shadow: black 2px 2px 0px;
+    }
+
+    .main-content{
+
+        width: 60%;
+        letter-spacing: .01em;
+        margin-left: 9em;
+        float: left;
+        background-color: #141E30;
+        color: white;
+        font-family: 'Ubuntu', sans-serif;;
+    }
+
+    h1,h2,h3{
+
+        color: #85bb65;;
+        text-shadow: 2px 2px black;
+        letter-spacing: 4;
+    }
+
+    .main-text p{
+        font-family: sans-serif;
+        
+    }
+
+    .playlist{
+
+        float: left;
+        width: 20%;
+        text-align: center;
+        background-color:#141E30;
+        margin-top: 46px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        padding: 25px;
+        margin-left: 3%;
+
+    }
+
+    .playlist-content{
+
+        display: block;
+
+    }
+
+    .playlist-content a{
+
+        display: block;
+        text-decoration: none;
+        color: white;
+        margin-top: 1em;
+        background-color: #243B55;
+        padding: 1em;
+        border-radius: 5px;
+        font-family: bebas neue ;
+        font-size: 1.2em;
+        color: white;
+        
+        
+
+        
+    }
+
+    .playlist-content a:hover{
+
+        transition: all ease-in 1s;
+        color: #85bb65;
+    }
+
+    .main-text hr{
+
+        width: 30%;
+        
+    }
+
+    .icon-play3{
+
+        margin-right: 10px;
+    }
+}
